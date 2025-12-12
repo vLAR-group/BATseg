@@ -27,8 +27,7 @@ The code of our method is developed based on the [nnUNet](https://github.com/MIC
     git clone https://github.com/vLAR-group/BATseg.git
     cd BATseg
     pip install -e .
-    pip install cupy-cuda11x blosc2 acvl_utils==0.2
-    pip install MedPy
+    pip install cupy-cuda11x blosc2 acvl_utils==0.2 MedPy
     ```
 3) Setting up Paths:
 
@@ -117,8 +116,7 @@ You can download all our pre-trained models from [Google Drive]().
       nnUNetv2_predict -i INPUT_FOLDER -o OUTPUT_FOLDER -d DATASET_NAME_OR_ID -c UNET_CONFIGURATION -f FOLD -tr nnUNetTrainer -p nnUNetPlans -chk checkpoint_best.pth --save_probabilities
       ```
    
-      Only specify `--save_probabilities` if you intend to use ensembling. `--save_probabilities` will make the command save the predicted
-      probabilities alongside of the predicted segmentation masks requiring a lot of disk space.
+      `--save_probabilities` will make the command save the predicted probabilities alongside of the predicted segmentation masks requiring a lot of disk space.
    
    2) Save Per-voxel Logits on Training Set
    

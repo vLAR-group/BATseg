@@ -21,7 +21,7 @@ The code of our method is developed based on the [nnUNet](https://github.com/MIC
 
 ### 1. Environment
 
-1) Install [PyTorch](https://pytorch.org/get-started/locally/) as described on their website (conda/pip).
+1) Install [PyTorch](https://pytorch.org/get-started/locally/) as described on their website.
 2) Install BATseg:
     ```bash
     git clone https://github.com/vLAR-group/BATseg.git

@@ -27,7 +27,7 @@ The code of our method is developed based on the [nnUNet](https://github.com/MIC
     git clone https://github.com/vLAR-group/BATseg.git
     cd BATseg
     pip install -e .
-    pip install cupy-cuda11x, blosc2, acvl_utils==0.2
+    pip install cupy-cuda11x blosc2 acvl_utils==0.2
     pip install MedPy
     ```
 3) Setting up Paths:
